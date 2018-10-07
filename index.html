@@ -1,10 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Berrymore Farms LLC.</title>
+  <link rel="stylesheet" type="text/css" href="C:\Users\wwood\OneDrive - CapTech Ventures, Inc\Personal\River Road Solutions, LLC\Berrymore Farms\allstyles.css">
+  <script src="C:\Users\wwood\OneDrive - CapTech Ventures, Inc\Personal\River Road Solutions, LLC\Berrymore Farms\berrymorejs.js" type="text/javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div id="contactWidgetContainer">
+    <p class="contactWidgets">e: pbance@gmail.com</p>
+    <p class="contactWidgets">p: 804-357-1619</p>
+    <a class="contactWidgets" href=""><img alt="facebooklink" width="30" height="30" src="C:\Users\wwood\OneDrive - CapTech Ventures, Inc\Personal\River Road Solutions, LLC\Berrymore Farms\Resources\fblogo.png"/></a>
+  </div>
+
+  <div id="header">
+    <h1 id="pageTitle" onclick="windowLog()">Berrymore Farms LLC.</h1>
+    <div id="menuItems">
+      <a class="menuItemLinks" href="">Home</a> |
+      <a class="menuItemLinks" href="">About Us</a> |
+      <a class="menuItemLinks" href="">Contact</a>
+    </div>
+  </div>
+
 <body>
 
+<div class="container" style="width:100%;">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators
+    <ol class="carousel-indicators" style="margin-bottom:-20px;">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>-->
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <!--Slide 1-->
+      <div class="item active">
+        <!--<img src="" alt="Chania" width="460" height="345"/>-->
+        <div style="margin: 0 auto; padding-top: 10px; background-size: cover; background-position: 60% 45%; background-repeat: no-repeat; height:290px; background-image:url('https://get.pxhere.com/photo/landscape-nature-cloud-sky-sunset-farm-meadow-house-hill-building-barn-country-rustic-dusk-rural-tower-scenic-agriculture-outdoors-hdr-clouds-fields-silo-beautiful-wisconsin-rural-area-dairy-farm-1270945.jpg')">
+        </div>
+
+        <!--
+        <div class="carousel-caption">
+          <h3>Header</h3>
+          <p>Description</p>
+        </div>-->
+
+      </div>
+
+      <!--Slide 2-->
+      <div class="item">
+        <div style="margin: 0 auto; padding-top: 10px; background-size: cover; background-position: 0% 43%; background-repeat: no-repeat; height:290px; background-image:url('https://images.pexels.com/photos/273001/pexels-photo-273001.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260')">
+        </div>
+      </div>
+
+      <!--Slide 3-->
+      <div class="item">
+        <div style="margin: 0 auto; padding-top: 10px; background-size: cover; background-position: 0% 50%; background-repeat: no-repeat; height:290px; background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Old-fashioned-farm-house_-_West_Virginia_-_ForestWander.jpg/1200px-Old-fashioned-farm-house_-_West_Virginia_-_ForestWander.jpg')">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls-->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
   <div id="like_button_container">
-
-
   </div>
 
   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
@@ -12,5 +88,7 @@
 
   <!-- Load our React component. -->
   <script src="like_button.js"></script>
+
+
 </body>
 </html>

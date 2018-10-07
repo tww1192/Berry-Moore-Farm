@@ -1,4 +1,51 @@
-head
+#header
 {
-  color:black;
+  width:100%;
 }
+#contactWidgetContainer
+{
+  background-color:slategrey;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.contactWidgets
+{
+  display:inline-block;
+  color:white;
+}
+#menuItems{
+  display:inline-block;
+  float:right;
+  margin-top:30px;
+  margin-right:20px;
+}
+#pageTitle
+{
+  margin-left:20px;
+  display:inline-block;
+}
+.container
+{
+  padding:0px !important;
+}
+@font-face {
+    font-family: 'loewRegular';
+       src: url('') format('woff');
+  }
+    .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+    #myCarousel > a.right.carousel-control
+  {
+  background-image:none;
+  right:.5%;
+  width:3%;
+  }
+    #myCarousel > a.left.carousel-control
+  {
+  background-image:none;
+  left:.5%;
+  width:3%;
+  }
