@@ -4,9 +4,12 @@
 }
 #contactWidgetContainer
 {
-  background-color:slategrey;
+  background-color:rgb(32,110,79);
   padding-top:5px;
   padding-bottom:5px;
+  font-weight:bold;
+  font-size:16px;
+  height:35px;
 }
 .contactWidgets
 {
@@ -16,13 +19,13 @@
 #menuItems{
   display:inline-block;
   float:right;
-  margin-top:30px;
   margin-right:20px;
 }
 #pageTitle
 {
   margin-left:20px;
   display:inline-block;
+  color: #206e4f;
 }
 .container
 {
@@ -49,3 +52,29 @@
   left:.5%;
   width:3%;
   }
+/* Styling for mobile at screen width of 600px */
+  @media only screen and (max-width: 600px) {
+    .contactWidgets
+    {
+     font-size:14px;
+    }
+}
+
+/* Styling for mobile at screen width of 480px */
+  @media only screen and (max-width: 480px) {
+    .contactWidgets
+    {
+     font-size:12px;
+    }
+}
+
+#aboutUsDiv
+{
+  text-align:center;
+  padding-left:100px;
+  padding-right:100px;
+}
+#aboutUs
+{
+  color:rgb(32,110,79);
+}
